@@ -8,7 +8,7 @@ import abstractfactory.factory.MotifWidgetFactory;
 public class Main {
     public static void main(String[] args) {
         WidgetLoader widgetLoader = new WidgetLoader();
-       widgetLoader.showFactory();
+        widgetLoader.showFactory();
 
         widgetLoader.setWidgetFactory(new MotifWidgetFactory());
         widgetLoader.showFactory();
