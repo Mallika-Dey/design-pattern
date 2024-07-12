@@ -1,10 +1,10 @@
 package secnariobased.creational.problem1.display;
 
-import secnariobased.creational.problem1.controller.ScreenController;
+import secnariobased.creational.problem1.controller.Controller;
 import secnariobased.creational.problem1.display.screeninterface.Display;
 
 public class TouchScreen extends Display {
-    public TouchScreen(ScreenController controller) {
+    public TouchScreen(Controller controller) {
         super(controller);
     }
 
