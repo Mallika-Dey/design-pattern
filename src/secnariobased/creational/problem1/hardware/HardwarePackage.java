@@ -17,4 +17,20 @@ public class HardwarePackage {
         storage = hardwarePackageFactory.getStorage();
         display = hardwarePackageFactory.getDisplay();
     }
+
+    public Display getDisplay() {
+        return display;
+    }
+
+    public Storage getStorage() {
+        return storage;
+    }
+
+    public IdentificationCard getIdentificationCard() {
+        return identificationCard;
+    }
+
+    public MicroController getMicroController() {
+        return microController;
+    }
 }
